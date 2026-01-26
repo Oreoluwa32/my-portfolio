@@ -1,7 +1,7 @@
 const header = document.querySelector("header");
 
-window.addEventListener ("scroll", function() {
-	header.classList.toggle ("sticky", window.scrollY >0);
+window.addEventListener("scroll", function() {
+	header.classList.toggle("sticky", window.scrollY > 0);
 });
 
 let menu = document.querySelector('#menu-icon');
@@ -17,12 +17,17 @@ window.onscroll = () => {
 	navbar.classList.remove('active');
 };
 
-const sr = ScrollReveal ({
-	distance: '25px',
+// ScrollReveal Animations
+const sr = ScrollReveal({
+	distance: '60px',
 	duration: 2500,
+	delay: 400,
 	reset: true
-})
+});
 
-sr.reveal('.home-text',{delay:190, origin:'bottom'})
-
-sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
+sr.reveal('.home-text', { origin: 'left' });
+sr.reveal('.about-img', { origin: 'bottom' });
+sr.reveal('.about-text', { origin: 'top' });
+sr.reveal('.main-text, .services-content, .portfolio-content, .contact', { origin: 'bottom' });
+sr.reveal('.box', { interval: 200 });
+sr.reveal('.row', { interval: 200 });
