@@ -48,9 +48,9 @@ export function Hero() {
           <div className="mt-10 grid w-full grid-cols-2 gap-4 sm:max-w-2xl sm:grid-cols-4">
             {[
               { k: "Years coding", v: "4+" },
-              { k: "Projects shipped", v: "15+" },
-              { k: "Stack", v: "TS · Node" },
-              { k: "Based in", v: "Nigeria" },
+              { k: "Apps shipped", v: "10+" },
+              { k: "Stack", v: "Flutter · TS · Node" },
+              { k: "Based in", v: "Lagos, NG" },
             ].map((s) => (
               <div key={s.k} className="card p-4">
                 <div className="font-mono text-xs uppercase tracking-wider text-muted">

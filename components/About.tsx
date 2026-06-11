@@ -19,29 +19,30 @@ export function About() {
           <h2 className="h-title">A developer who treats shipping as the job.</h2>
           <div className="mt-5 space-y-4 text-muted">
             <p>
-              I started out building games in Unity and mobile apps in Flutter,
-              which taught me to care about UX, performance, and the messy
-              middle between an idea and a real, working product.
+              I&apos;ve shipped production apps across transportation
+              (Movr), fintech (XPay at Creastech), and interactive platforms —
+              with a strong bias for clean UI, integrated backends, and
+              real-time features that actually feel real-time.
             </p>
             <p>
-              Today I work across the stack — typed React/Next.js on the
-              frontend, Node and Postgres on the backend, deployed on
-              Vercel/Netlify/AWS. I&apos;m happiest when a feature ships end to
-              end: well-modeled data, a clean API, an interface that feels fast,
-              and tests that catch regressions before users do.
+              On the frontend I work in Flutter and React/Next.js with Tailwind;
+              on the backend I integrate Django REST and Node APIs, with
+              WebSockets and location services when latency matters. I came up
+              through Unity game development and mobile, which is where I
+              learned to obsess over performance and UX polish.
             </p>
             <p>
-              Outside of work I&apos;m exploring distributed systems, writing
-              small CLIs, and contributing to open source.
+              Outside of work I build small tools, ship side projects to
+              GitHub, and keep sharpening my fundamentals.
             </p>
           </div>
 
           <div className="mt-8 grid gap-3 sm:grid-cols-2">
             {[
-              ["Location", "Ibadan, Nigeria (remote-friendly)"],
+              ["Location", "Lagos, Nigeria (remote-friendly)"],
               ["Open to", "Full-time · Contract · Remote"],
-              ["Focus", "Full-stack TypeScript"],
-              ["Side", "Mobile · Games · Tooling"],
+              ["Focus", "Full-stack · Mobile · Realtime"],
+              ["Currently", "Creastech · Movr"],
             ].map(([k, v]) => (
               <div
                 key={k}
