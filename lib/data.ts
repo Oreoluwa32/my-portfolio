@@ -1,39 +1,39 @@
 export const profile = {
   name: "Oreoluwa Adewale",
   role: "Full-Stack Engineer",
-  location: "Ibadan, Nigeria",
+  location: "Lagos, Nigeria",
   email: "adewalepete08@gmail.com",
   phone: "+2348060399046",
-  resumeUrl: "#",
+  resumeUrl: "/resume.pdf",
   socials: {
-    github: "https://github.com/oreoluwa32",
+    github: "https://github.com/Oreoluwa32",
     twitter: "https://twitter.com/OreoluwaAdewal7",
     linkedin: "#",
   },
   blurb:
-    "I build reliable, end-to-end web products — from typed React UIs to APIs, data models, and deploys. Currently focused on TypeScript, Next.js, and Node, with side experience in Flutter and Unity.",
+    "Creative, detail-oriented full-stack engineer with hands-on experience building scalable mobile and web apps across transportation, fintech, and interactive platforms. I specialize in responsive frontends, backend API integration, and real-time features.",
 };
 
 export const skills: { group: string; items: string[] }[] = [
   {
     group: "Languages",
-    items: ["TypeScript", "JavaScript", "Python", "C#", "Dart", "SQL"],
+    items: ["TypeScript", "JavaScript", "Dart", "Python", "C#", "C++", "HTML", "CSS"],
   },
   {
     group: "Frontend",
-    items: ["React", "Next.js", "Tailwind CSS", "Redux", "React Native"],
+    items: ["React.js", "Tailwind CSS", "Flutter", "Responsive UI", "UI Optimization"],
   },
   {
-    group: "Backend",
-    items: ["Node.js", "Express", "REST", "GraphQL", "Auth (JWT, OAuth)"],
+    group: "Backend & Realtime",
+    items: ["Node.js", "Django REST", "REST APIs", "WebSocket", "Authentication"],
   },
   {
-    group: "Data & Infra",
-    items: ["PostgreSQL", "MongoDB", "Prisma", "Redis", "Docker", "AWS"],
+    group: "Mobile & Games",
+    items: ["Flutter (Android/iOS)", "Unity", "Google Play publishing"],
   },
   {
-    group: "Tooling",
-    items: ["Git", "GitHub Actions", "Jest", "Playwright", "Vitest", "Figma"],
+    group: "Tooling & Infra",
+    items: ["Git", "Docker", "AWS", "API Integration", "Performance Tuning"],
   },
 ];
 
@@ -48,44 +48,56 @@ export type Project = {
   featured?: boolean;
 };
 
-// Replace these placeholders with your real projects.
 export const projects: Project[] = [
   {
-    title: "Project One",
-    tagline: "Full-stack SaaS dashboard",
+    title: "Excel Meet",
+    tagline: "Real-time video meeting platform",
     description:
-      "A multi-tenant analytics dashboard with auth, role-based access, and real-time charts. Replace with a real project description, problem solved, and your role.",
-    stack: ["Next.js", "TypeScript", "Postgres", "Prisma", "Tailwind"],
-    github: "#",
-    live: "#",
+      "A browser-based video conferencing app with rooms, live audio/video, and chat — built around WebRTC for peer connections and WebSockets for signalling. Focused on low-latency joins and a clean, distraction-free meeting UI.",
+    stack: ["JavaScript", "WebRTC", "WebSocket", "Node.js"],
+    github: "https://github.com/Oreoluwa32/excel_meet",
     featured: true,
   },
   {
-    title: "Project Two",
-    tagline: "REST API + background workers",
+    title: "Movr",
+    tagline: "Ride-hailing & transportation app",
     description:
-      "A typed REST API with queue-backed jobs, rate limiting, and observability. Replace with what it actually does and the scale/impact.",
-    stack: ["Node.js", "Express", "Redis", "PostgreSQL", "Docker"],
-    github: "#",
-    live: "#",
+      "Production Flutter app integrated with Django REST APIs for authentication, trip booking, and onboarding. Live driver tracking and trip updates powered by WebSockets and location services; payments and production builds shipped to Android and iOS.",
+    stack: ["Flutter", "Dart", "Django REST", "WebSocket", "Maps"],
+    github: "https://github.com/Oreoluwa32/Mover",
+    featured: true,
   },
   {
-    title: "Project Three",
-    tagline: "Real-time collaboration app",
+    title: "Monae",
+    tagline: "AI-assisted personal finance app",
     description:
-      "WebSocket-driven collaboration with optimistic UI and conflict resolution. Replace with the real product, users, and metrics.",
-    stack: ["React", "Node.js", "Socket.IO", "MongoDB"],
-    github: "#",
-    live: "#",
+      "A Flutter mobile app that helps users track spending and get AI-driven insights on their finances. Clean mobile UX with budgeting flows, transaction history, and conversational assistance.",
+    stack: ["Flutter", "Dart", "AI APIs"],
+    github: "https://github.com/Oreoluwa32/monae",
   },
   {
-    title: "Project Four",
-    tagline: "Mobile app",
+    title: "OBS Bible Plugin",
+    tagline: "Real-time Bible verse detection for OBS",
     description:
-      "A cross-platform mobile app built with Flutter / React Native. Replace with the actual app and what shipped.",
-    stack: ["Flutter", "Firebase"],
-    github: "#",
-    live: "#",
+      "A C++ plugin for OBS Studio that uses NLP to detect Bible references spoken in real time and surface the verse on screen — useful for churches and livestreams.",
+    stack: ["C++", "OBS SDK", "NLP"],
+    github: "https://github.com/Oreoluwa32/OBS-Bible-Plugin",
+  },
+  {
+    title: "EduQuiz",
+    tagline: "Educational quiz mobile game",
+    description:
+      "Final-year university project: a mobile quiz game that helps students master coursework across departments through gamified, department-specific quizzes.",
+    stack: ["Unity", "C#", "Mobile"],
+    github: "https://github.com/Oreoluwa32/EduQuiz-Final-Year-School-Project-",
+  },
+  {
+    title: "Word Match",
+    tagline: "2D word-matching puzzle game",
+    description:
+      "A polished mobile word puzzle built in Unity with progression, animations, and tuned gameplay loops.",
+    stack: ["Unity", "C#"],
+    github: "https://github.com/Oreoluwa32/Word-Match",
   },
 ];
 
@@ -98,22 +110,57 @@ export type Experience = {
 
 export const experience: Experience[] = [
   {
-    role: "Founder & Lead Engineer",
-    company: "QuantumWeb Studios",
-    period: "2022 — Present",
+    role: "Frontend Engineer",
+    company: "Creastech Limited",
+    period: "Dec 2025 — Present",
     bullets: [
-      "Shipped client web apps end-to-end: design system, API, deploy.",
-      "Cut page load by ~40% via SSR, caching, and image optimization.",
-      "Built reusable Next.js + Tailwind starter used across projects.",
+      "Build responsive Flutter frontend features for the XPay mobile app, focused on smooth UX and clean UI implementation.",
+      "Integrate frontend with backend APIs for authentication, wallet operations, bill payments, transfers, and transaction management.",
+      "Ship payment-facing features: real-time transaction status, form validation, and secure auth flows.",
+      "Partner with backend and product teams to fix production issues and improve Android stability.",
     ],
   },
   {
-    role: "Freelance Full-Stack Developer",
-    company: "Self-employed",
-    period: "2021 — Present",
+    role: "Full-Stack Engineer",
+    company: "Movr Technologies Ltd",
+    period: "Jul 2024 — Present",
     bullets: [
-      "Delivered React/Next.js frontends and Node REST APIs for SMB clients.",
-      "Set up CI/CD on GitHub Actions and Netlify/Vercel for zero-touch deploys.",
+      "Build and maintain mobile frontend features in Flutter — authentication, trip booking, and onboarding.",
+      "Integrate the app with Django REST APIs for real-time data exchange and trip management.",
+      "Implement maps and real-time tracking via WebSockets and location services for live driver and trip updates.",
+      "Debug and optimize performance, payment integrations, and Android/iOS production builds.",
+    ],
+  },
+  {
+    role: "Game Developer",
+    company: "Maliyo Game Studio",
+    period: "Jul 2023 — Jan 2024",
+    bullets: [
+      "Led a team of 5 developers to design, build, and ship 5 mobile games to the Google Play Store.",
+      "Improved gameplay performance and cut bugs ~30% via optimized C# scripts and iterative testing.",
+      "Raised team delivery speed ~20% through structured task delegation and sprint planning.",
+      "Boosted engagement with interactive UI/UX and optimized animations.",
+    ],
+  },
+  {
+    role: "Mobile Frontend Developer",
+    company: "SQI College of ICT",
+    period: "Jun 2022 — Jan 2023",
+    bullets: [
+      "Implemented responsive interfaces for web and mobile in collaboration with design and backend teams.",
+      "Improved page-load performance up to 25% with minification, lazy loading, and other best practices.",
+      "Built reusable UI components, cutting feature dev time 15–20%.",
+      "Integrated multiple REST APIs for seamless cross-product UX.",
+    ],
+  },
+  {
+    role: "Robotic Engineering Intern",
+    company: "RAINigeria",
+    period: "Jan 2021 — May 2021",
+    bullets: [
+      "Contributed to CAD modeling, sensor integration, microcontroller programming, and robotic system testing.",
+      "Raised sensor accuracy ~15% via calibration and troubleshooting.",
+      "Ran real-world and simulated performance tests, cutting system errors ~10%.",
     ],
   },
 ];
