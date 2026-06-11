@@ -25,7 +25,7 @@ export const skills: { group: string; items: string[] }[] = [
   },
   {
     group: "Backend & Realtime",
-    items: ["Node.js", "Django REST", "REST APIs", "WebSocket", "Authentication"],
+    items: ["Node.js", "Django REST", "Supabase", "Postgres", "WebSocket", "Auth & RLS"],
   },
   {
     group: "Mobile & Games",
@@ -51,11 +51,22 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: "Excel Meet",
-    tagline: "Real-time video meeting platform",
+    tagline: "Professional services marketplace",
     description:
-      "A browser-based video conferencing app with rooms, live audio/video, and chat — built around WebRTC for peer connections and WebSockets for signalling. Focused on low-latency joins and a clean, distraction-free meeting UI.",
-    stack: ["JavaScript", "WebRTC", "WebSocket", "Node.js"],
+      "A Nigerian marketplace connecting skilled professionals with clients. Clients post jobs, professionals apply with proposals, and both sides talk through built-in realtime messaging. Includes Paystack subscriptions, FCM web push, full-text + trigram search, an admin dashboard, and an installable PWA — all running on Supabase with RLS, edge functions, and trigger-maintained badges.",
+    stack: [
+      "React 18",
+      "Vite",
+      "Tailwind",
+      "Supabase",
+      "Postgres",
+      "Edge Functions",
+      "Paystack",
+      "FCM",
+      "PWA",
+    ],
     github: "https://github.com/Oreoluwa32/excel_meet",
+    live: "https://excel-meet.vercel.app",
     featured: true,
   },
   {
