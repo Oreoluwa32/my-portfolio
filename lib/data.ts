@@ -3,12 +3,12 @@ export const profile = {
   role: "Full-Stack Engineer",
   location: "Lagos, Nigeria",
   email: "adewalepete08@gmail.com",
-  phone: "+2348060399046",
+  phone: "+2347043833500",
   resumeUrl: "/resume.pdf",
   socials: {
     github: "https://github.com/Oreoluwa32",
-    twitter: "https://twitter.com/OreoluwaAdewal7",
-    linkedin: "#",
+    // twitter: "https://twitter.com/OreoluwaAdewal7",
+    linkedin: "https://linkedin.com/in/oreoluwa-adewale-1566b7205",
   },
   blurb:
     "Creative, detail-oriented full-stack engineer with hands-on experience building scalable mobile and web apps across transportation, fintech, and interactive platforms. I specialize in responsive frontends, backend API integration, and real-time features.",

@@ -73,9 +73,9 @@ export function Contact() {
             <a href={profile.socials.github} target="_blank" rel="noreferrer" className="btn-ghost">
               GitHub
             </a>
-            <a href={profile.socials.twitter} target="_blank" rel="noreferrer" className="btn-ghost">
+            {/* <a href={profile.socials.twitter} target="_blank" rel="noreferrer" className="btn-ghost">
               Twitter
-            </a>
+            </a> */}
             <a href={profile.socials.linkedin} target="_blank" rel="noreferrer" className="btn-ghost">
               LinkedIn
             </a>
