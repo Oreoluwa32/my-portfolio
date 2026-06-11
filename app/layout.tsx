@@ -23,7 +23,12 @@ export const metadata: Metadata = {
     description:
       "Full-stack engineer building reliable web products with TypeScript, React, Next.js, and Node.",
   },
-  icons: { icon: "/favicon.ico" },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "32x32" },
+    ],
+  },
 };
 
 export default function RootLayout({
