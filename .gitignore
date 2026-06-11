@@ -1,2 +1,10 @@
 .zencoder/
 .zenflow/
+node_modules
+.next
+out
+.env*.local
+.DS_Store
+*.log
+.vercel
+next-env.d.ts
