@@ -12,10 +12,6 @@ export function Hero() {
       />
       <div className="container-x">
         <div className="flex flex-col items-start gap-5">
-          <div className="chip">
-            <span className="mr-2 inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-400" />
-            Available for full-stack roles
-          </div>
 
           <h1 className="max-w-4xl text-4xl font-semibold leading-tight tracking-tight sm:text-6xl">
             Hi, I&apos;m {profile.name.split(" ")[0]} —{" "}
