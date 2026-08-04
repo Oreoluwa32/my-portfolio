@@ -79,12 +79,12 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    title: "Monae",
-    tagline: "AI-assisted personal finance app",
+    title: "XPay by Creastech",
+    tagline: "Fintech wallet & payments app",
     description:
-      "A Flutter mobile app that helps users track spending and get AI-driven insights on their finances. Clean mobile UX with budgeting flows, transaction history, and conversational assistance.",
-    stack: ["Flutter", "Dart", "AI APIs"],
-    github: "https://github.com/Oreoluwa32/monae",
+      "Production Flutter app for wallet operations, bill payments, transfers, and transaction management. I build the responsive frontend and integrate it with backend APIs for secure auth, real-time transaction status, and payment flows — shipped and live on the Google Play Store.",
+    stack: ["Flutter", "Dart", "REST APIs", "Auth", "Payments"],
+    live: "https://play.google.com/store/apps/details?id=com.crestech.xpay",
   },
   {
     title: "OBS Bible Plugin",
