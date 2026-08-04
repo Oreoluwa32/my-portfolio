@@ -66,7 +66,7 @@ export const projects: Project[] = [
       "PWA",
     ],
     github: "https://github.com/Oreoluwa32/excel_meet",
-    live: "https://excel-meet.vercel.app",
+    live: "https://excelmeet.com",
     featured: true,
   },
   {
